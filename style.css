@@ -1,0 +1,34 @@
+body {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: rgba(46, 80, 166);
+    text-align: end;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 40px;
+}
+
+.wrapper img {
+    width: 250px;
+    height: 302px;
+    object-fit: cover; 
+    object-position: bottom; 
+}
+
+.text-wrapper h2 {
+    text-align: start;
+}
+
+.small-text {
+    font-weight: 400;
+}
+
+.large-text {
+    font-weight: 700;
+}
